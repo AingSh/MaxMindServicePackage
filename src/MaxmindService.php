@@ -2,7 +2,7 @@
 
 namespace AingShMax\MaxMindServicePackage;
 
-use Alexander\GeoServiceInterfaceTest\GeoServiceInterface;
+use Alexander\GeoServiceInterface\GeoServiceInterface;
 use GeoIp2\Database\Reader;
 use GeoIp2\Exception\AddressNotFoundException;
 use GeoIp2\Exception\GeoIp2Exception;
