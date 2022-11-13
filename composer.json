@@ -1,0 +1,30 @@
+{
+    "name": "maxmindservicepackage/maxmind-service-geo-test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AingShMax\\MaxMindServicePackage\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "alexander",
+            "email": "alex.shklyarenko22@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "geoip2/geoip2": "~2.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "aingshint/geo-service-interface": "master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AingShMax\\MaxMindServicePackage\\GeoServiceProvider"
+            ]
+        }
+    }
+}
